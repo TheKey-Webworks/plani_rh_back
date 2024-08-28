@@ -22,4 +22,4 @@ for (let model in injectedModels) {
   }
 }
 
-export default sequelize;
+export { sequelize as default, injectedModels };
