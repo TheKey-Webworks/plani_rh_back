@@ -1,0 +1,63 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# TypeScript
+dist/
+build/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*.local
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Coverage directory used by tools like Istanbul
+coverage/
+
+# Sentry file (optional)
+.sentryclirc
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Others
+*.gz
+*.zip
+*.tar
+*.rar
+*.7z
+
+# Optional: Ignore test output
+*.spec.ts
+*.test.ts
+
+# Ignore compiled files in source directories
+src/**/*.js
+src/**/*.d.ts
+
+# Ignore any local build or distribution directories
+out/
+lib/
+
+
+#dev database
+*.sqlite3
