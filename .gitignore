@@ -50,9 +50,6 @@ coverage/
 *.spec.ts
 *.test.ts
 
-# Ignore compiled files in source directories
-src/**/*.js
-src/**/*.d.ts
 
 # Ignore any local build or distribution directories
 out/
